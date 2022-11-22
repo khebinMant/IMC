@@ -30,7 +30,7 @@ export const imcTableValues = [
     {
         clasificacion:'Obesidad grado 3',
         imc_low: 40,
-        imc_high: 40,
+        imc_high: 100,
         riesgo: 'Muy severo',
         color : 'rgb(255, 64, 0)'
     },

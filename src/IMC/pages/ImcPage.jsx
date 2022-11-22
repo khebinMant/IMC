@@ -5,8 +5,10 @@ export const ImcPage = () => {
   return (
       <>
         <Header />
-        <ImcResult />
-        <ImcTable />
+        <div className='body-content'>
+          <ImcResult />
+          <ImcTable />
+        </div>
       </>
     )
 }

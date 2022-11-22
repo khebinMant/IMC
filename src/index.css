@@ -12,23 +12,27 @@ code {
     monospace;
 }
 
+.body-content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .result-content{
   border-radius: 2%;
-  margin-top: 20px;
-  margin-left: 30%;
   height: 260px;
   width: 340px;
   background-color: rgb(209, 208, 208);
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   border: 1px;
 }
 
 .table-content{
-  border-radius: 2%;
   margin-top: 20px;
-  margin-left: 30%;
+  border-radius: 2%;
   height: 170px;
   width: 340px;
   background-color: rgb(209, 208, 208);

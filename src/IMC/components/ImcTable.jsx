@@ -17,7 +17,7 @@ export const ImcTable = () => {
                 imcTableValues.map((imc, index)=>(
                     <tr key={index}>
                         <td>{imc.clasificacion}</td>
-                        <td>{`${imc.imc_low} - ${imc.imc_high}`}</td>
+                        <td style={{margin:'auto'}}>{`${imc.imc_low} - ${imc.imc_high}`}</td>
                         <td>{imc.riesgo}</td>
                     </tr>
                 ))
