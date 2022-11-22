@@ -1,0 +1,6 @@
+.result-content{
+    flex-direction: column;
+    border: 1px;
+    border-style: dashed ;
+    border-color: black;
+}
