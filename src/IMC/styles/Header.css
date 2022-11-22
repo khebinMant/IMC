@@ -1,0 +1,5 @@
+.header-content{
+    display: flex;
+    background-color: rgb(209, 208, 208);
+    justify-content: center;
+}
