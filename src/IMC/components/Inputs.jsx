@@ -6,7 +6,7 @@ export const Inputs = ({props}) => {
         <>
             <input step="1"  defaultValue="150"  type="range" min={min} max={max} onChange={onChange} value={value} id="kgPerson"/>
                 {
-                    option == 'kg'
+                    option === 'kg'
                     ?
                     <p>{value} <b>{option}</b></p>
                     :

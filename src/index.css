@@ -40,6 +40,8 @@ code {
 }
 
 table{
+  margin: auto;
+  text-align: center;
   border-collapse: collapse;
 }
 .firstLine td{
